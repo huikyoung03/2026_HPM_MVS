@@ -14,7 +14,7 @@ gerrad-hall을 colmap에서 SfM 단계까지 생성
 
 ## 실습 현황 
 - 2026.03.31
-- 
+  
   환경 : AND Ryzen 7 5800H / RAM 16G / NVIDIA GeForce GTX 1650
 
   hpm.exe 실행 시 10개 ~ 15개 에서 펑
