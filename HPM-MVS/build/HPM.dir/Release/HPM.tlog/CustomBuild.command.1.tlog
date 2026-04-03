@@ -1,0 +1,26 @@
+^C:\USERS\HUIG1\DOCUMENTS\DONGAUNIV\SLAMPROJECT\PROJECT1\HPM-MVS\HPM-MVS\HPM.CU
+setlocal
+cd C:\Users\huig1\Documents\dongauniv\slamproject\Project1\HPM-MVS\HPM-MVS\build\CMakeFiles\HPM.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/huig1/Documents/dongauniv/slamproject/Project1/HPM-MVS/HPM-MVS/build/CMakeFiles/HPM.dir//Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -D verbose:BOOL=OFF -D "CCBIN:PATH=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools/MSVC/14.44.35207/bin/Hostx64/x64" -D build_configuration:STRING=Release -D generated_file:STRING=C:/Users/huig1/Documents/dongauniv/slamproject/Project1/HPM-MVS/HPM-MVS/build/CMakeFiles/HPM.dir//Release/HPM_generated_HPM.cu.obj -D generated_cubin_file:STRING=C:/Users/huig1/Documents/dongauniv/slamproject/Project1/HPM-MVS/HPM-MVS/build/CMakeFiles/HPM.dir//Release/HPM_generated_HPM.cu.obj.cubin.txt -P C:/Users/huig1/Documents/dongauniv/slamproject/Project1/HPM-MVS/HPM-MVS/build/CMakeFiles/HPM.dir//HPM_generated_HPM.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HUIG1\DOCUMENTS\DONGAUNIV\SLAMPROJECT\PROJECT1\HPM-MVS\HPM-MVS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/huig1/Documents/dongauniv/slamproject/Project1/HPM-MVS/HPM-MVS -BC:/Users/huig1/Documents/dongauniv/slamproject/Project1/HPM-MVS/HPM-MVS/build --check-stamp-file C:/Users/huig1/Documents/dongauniv/slamproject/Project1/HPM-MVS/HPM-MVS/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

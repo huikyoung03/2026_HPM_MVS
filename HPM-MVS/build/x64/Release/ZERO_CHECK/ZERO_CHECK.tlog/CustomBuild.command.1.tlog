@@ -1,0 +1,10 @@
+^C:\USERS\HUIG1\DOCUMENTS\DONGAUNIV\SLAMPROJECT\PROJECT1\HPM-MVS\HPM-MVS\BUILD\CMAKEFILES\5E4F3B81F53D3B22886CD749FF08AC1B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/huig1/Documents/dongauniv/slamproject/Project1/HPM-MVS/HPM-MVS -BC:/Users/huig1/Documents/dongauniv/slamproject/Project1/HPM-MVS/HPM-MVS/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/huig1/Documents/dongauniv/slamproject/Project1/HPM-MVS/HPM-MVS/build/HPM.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
